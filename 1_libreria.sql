@@ -1,6 +1,6 @@
-CREATE DATABASE libreria2;
+CREATE DATABASE libreria;
 
-USE libreria2;
+USE libreria;
 
 CREATE TABLE editorial(
 	id INTEGER PRIMARY KEY,
@@ -21,7 +21,9 @@ CREATE TABLE libro(
 	anno YEAR,
 	precio INTEGER,
 	comentarios VARCHAR(500),
-	foto BLOB,
-  FOREIGN KEY (id_editorial) REFERENCES editorial(id)
+	foto BLOB
 );
 
+ALTER TABLE libro
+ADD CONSTRAINT fk_editorial
+FOREIGN KEY (id_editorial) REFERENCES editorial(id)
