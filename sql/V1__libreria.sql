@@ -1,7 +1,3 @@
-CREATE DATABASE libreria;
-
-USE libreria;
-
 CREATE TABLE editorial(
 	id INTEGER PRIMARY KEY,
 	nombre VARCHAR(50),

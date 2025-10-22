@@ -1,5 +1,3 @@
-USE libreria;
-
 INSERT INTO editorial(id, nombre, nombre_contacto, direccion, ciudad, telefono, email, comentario)
 VALUES(1, 'Sol', 'Bairon Soto', NULL, NULL, '123456789', 'usuario@gmail.com', NULL);
 

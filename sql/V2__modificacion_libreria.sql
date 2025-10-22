@@ -1,5 +1,3 @@
-USE libreria;
-
 CREATE TABLE autor(
   rut VARCHAR(12) PRIMARY KEY,
   nombre VARCHAR(50),
