@@ -1,0 +1,17 @@
+INSERT INTO libro(id, isbn, titulo, id_editorial, rut_autor, precio, comentarios, foto) VALUES
+(20, '123-456789-20', 'Cinco', 3, '11222333-4', 130000, NULL, NULL),
+(21, '123-456789-21', 'Seis', 4, '11222334-5', 125000, NULL, NULL),
+(22, '123-456789-22', 'Siete', 3, '11222334-5', 150000, NULL, NULL),
+(23, '123-456789-23', 'Ocho', 4, '11222335-6', 145000, NULL, NULL),
+(24, '123-456789-24', 'Treinta y Cinco', 3, '11222333-4', 1000, NULL, NULL),
+(25, '123-456789-25', 'Treinta y Seis', 3, '11222334-5', 2000, NULL, NULL),
+(26, '123-456789-26', 'Treinta y Siete', 3, '11222334-5', 3000, NULL, NULL),
+(27, '123-456789-27', 'Treinta y Ocho', 3, '11222335-6', 5000, NULL, NULL),
+(30, '123-456789-30', 'NUeve', NULL, '11222333-4', 130000, NULL, NULL),
+(31, '123-456789-31', 'Diez', NULL, '11222334-5', 125000, NULL, NULL),
+(32, '123-456789-32', 'Once', NULL, '11222334-5', 150000, NULL, NULL),
+(33, '123-456789-33', 'Doce', NULL, '11222335-6', 145000, NULL, NULL),
+(34, '123-456789-34', 'Cincuenta y Cinco', 3, NULL, 1000, NULL, NULL),
+(35, '123-456789-35', 'Cincuenta y Seis', 3, NULL, 2000, NULL, NULL),
+(36, '123-456789-36', 'Cincuenta y Siete', NULL, NULL, 3000, NULL, NULL),
+(37, '123-456789-37', 'Cincuenta y Ocho', NULL, NULL, 5000, NULL, NULL);
