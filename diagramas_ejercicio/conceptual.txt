@@ -1,0 +1,7 @@
+erDiagram
+    AUTOPISTA ||--|{ PEAJE : tiene
+    CONDUCTOR ||--|{ VEHICULO : conduce
+    PEAJE }o--o{ VEHICULO : pasa
+    PASE }o--|| VEHICULO : afecta
+    PASE }o--|| CONDUCTOR : pertenece
+    PASE }o--|| PEAJE : ocurre_en

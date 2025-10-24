@@ -1,0 +1,3 @@
+erDiagram
+    CLIENTE ||--o{ COMPRA : realiza
+    COMPRA }o--|{ PRODUCTO : contiene

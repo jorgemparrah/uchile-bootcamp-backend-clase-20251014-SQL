@@ -1,0 +1,20 @@
+Table cliente {
+  id VARCHAR(20) [primary key]
+  email VARCHAR(50)
+}
+
+Table compra {
+  id integer [primary key]
+  id_cliente VARCHAR(20) [ref: > cliente.id, not null]
+}
+
+Table producto {
+  id integer [primary key]
+  nombre VARCHAR(100)
+}
+
+Table compra_producto {
+  id_compra integer [primary key, ref: > compra.id, not null]
+  id_producto integer [primary key, ref: > producto.id, not null]
+  cantidad integer
+}
