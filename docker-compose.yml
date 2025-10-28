@@ -14,5 +14,5 @@ services:
   flyway:
     image: flyway/flyway:10.20.1-alpine
     volumes:
-      - ./sql:/flyway/sql
+      - ./sql_ejercicio:/flyway/sql
     command: -url=jdbc:mysql://${BD_HOST}:${BD_PORT}/${BD_NAME}?allowPublicKeyRetrieval=true -user=${BD_USER} -password=${BD_PASS} -connectRetries=10 migrate
